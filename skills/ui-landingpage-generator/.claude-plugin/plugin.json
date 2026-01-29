@@ -1,0 +1,16 @@
+{
+  "name": "ui-landingpage-generator",
+  "version": "1.0.0",
+  "description": "Generate distinctive, production-grade landing pages using Gemini CLI and Claude Code review pipeline",
+  "author": {
+    "name": "Felix Huber"
+  },
+  "keywords": [
+    "landing-page",
+    "frontend",
+    "design",
+    "gemini",
+    "ui",
+    "generator"
+  ]
+}
