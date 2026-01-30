@@ -42,7 +42,14 @@ To use this as a Claude Code skill:
 git clone https://github.com/felix-huber/ui-landingpage-generator-skill ~/.claude/skills/ui-landingpage-generator
 ```
 
-Or for project-local installation, clone into your project and add to `.claude/settings.json`:
+Or for project-local installation:
+
+```bash
+# Clone into your project
+git clone https://github.com/felix-huber/ui-landingpage-generator-skill ./ui-landingpage-generator
+```
+
+Then add to `.claude/settings.json`:
 
 ```json
 {
