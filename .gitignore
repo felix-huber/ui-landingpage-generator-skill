@@ -4,7 +4,6 @@ result_*/
 
 # Generated files
 *.html
-!skills/**/*.html
 
 # OS files
 .DS_Store

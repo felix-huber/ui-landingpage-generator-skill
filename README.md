@@ -26,8 +26,8 @@ The pipeline avoids generic "AI aesthetics" by using sophisticated design prompt
 
 ```bash
 # Clone or download this repository
-git clone https://github.com/your-username/ui-landing-page-generator.git
-cd ui-landing-page-generator
+git clone https://github.com/felix-huber/ui-landingpage-generator-skill.git
+cd ui-landingpage-generator-skill
 
 # Make the script executable
 chmod +x generate_landing.sh
