@@ -38,16 +38,15 @@ chmod +x generate_landing.sh
 To use this as a Claude Code skill:
 
 ```bash
-# Copy the skill to your Claude Code skills directory
-mkdir -p ~/.claude/skills
-cp -r skills/ui-landingpage-generator ~/.claude/skills/
+# Clone to your Claude Code skills directory
+git clone https://github.com/felix-huber/ui-landingpage-generator-skill ~/.claude/skills/ui-landingpage-generator
 ```
 
-Or add to your project's `.claude/settings.json`:
+Or for project-local installation, clone into your project and add to `.claude/settings.json`:
 
 ```json
 {
-  "skills": ["./skills/ui-landingpage-generator"]
+  "skills": ["./ui-landingpage-generator"]
 }
 ```
 

@@ -41,6 +41,7 @@ The skill runs a shell script pipeline (`generate_landing.sh`) that:
 When the user provides a PRD, brief, or requirements:
 
 ```bash
+# From repository root
 ./generate_landing.sh -c path/to/prd.md -o result
 ```
 
